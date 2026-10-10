@@ -1,0 +1,10 @@
+[project]
+name = "learnos-backend"
+version = "0.1.0"
+description = "AI-Powered Personalized Learning OS - FastAPI Backend"
+authors = [{ name = "Omkar Bhosale", email = "omkarbhosale1623@gmail.com" }]
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
